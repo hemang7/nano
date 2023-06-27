@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="px-4 pt-8 md:pt-28 text-xs sm:text-sm bg-pink-600">
+    <div className="px-4 pt-8 md:pt-28 text-xs sm:text-sm bg-blue-600">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row gap-8 sm:gap-20">
           <div className="md:w-1/2">
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="text-right mr-5">
           <button
-            className=" bg-pink-800 hover:bg-pink-500 rounded-full p-2 focus:outline-none mb-5"
+            className=" bg-blue-400 hover:bg-blue-900 rounded-full p-2 focus:outline-none mb-5"
             onClick={scrollToTop}
           >
             <FontAwesomeIcon icon={faChevronUp} size="lg" />

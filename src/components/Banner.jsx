@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="absolute inset-0 flex items-center justify-end text-black text-center mx-10 md:mt-10">
         <div className="">
           <h1 className="text-5xl font-bold mb-5 text-center">
-            NanoSolute <span className="text-pink-500">Services</span>
+            NanoSolute <span className="text-blue-600">Services</span>
           </h1>
           <p className="text-xl mb-10 text-center">
             Transforming Possibilities into Solutions.

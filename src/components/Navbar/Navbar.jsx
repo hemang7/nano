@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="flex items-center font-medium justify-between px-4 py-2">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <Link to="/">
-            <img src={Logo} alt="logo" className="md:cursor-pointer h-9 " />
+            <img src={Logo} alt="logo" className="md:cursor-pointer h-12 " />
           </Link>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink
               exact
               to="/"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               Home
@@ -34,7 +34,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/about"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               About
@@ -44,7 +44,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/contact"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               Contact
@@ -63,7 +63,7 @@ const Navbar = () => {
             <NavLink
               exact
               to="/"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               Home
@@ -73,7 +73,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/about"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               About
@@ -83,7 +83,7 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/contact"
-              className="py-7 px-3 inline-block hover:text-pink-600"
+              className="py-7 px-3 inline-block hover:text-blue-500"
               activeClassName="text-blue-500"
             >
               Contact

@@ -53,7 +53,7 @@ const NavLinks = () => {
                           <li className=" my-2.5" key={slink.name}>
                             <Link
                               to={slink.link}
-                              className="hover:text-pink-500"
+                              className="hover:text-blue-500"
                               onClick={() => {
                                 handleServiceClick(slink);
                                 setHeading("");

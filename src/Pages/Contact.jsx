@@ -123,7 +123,7 @@ const Contact = () => {
           style={{ marginBottom: 100 }}
         />
       </div>
-      <div className="flex flex-col md:flex-row mt-12 bg-pink-600 rounded-md p-10">
+      <div className="flex flex-col md:flex-row mt-12 bg-blue-600 rounded-md p-10">
         <div className="md:w-1/2 md:ml-8 flex justify-center md:order-2">
           <div>
             <h2 className="text-2xl font-bold mb-4 text-white">
@@ -183,7 +183,7 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="bg-pink-800 text-white w-full md:w-1/4 px-4 py-2 rounded-lg hover:bg-pink-900"
+              className="bg-blue-800 text-white w-full md:w-1/4 px-4 py-2 rounded-lg hover:bg-blue-500"
             >
               Submit
             </button>

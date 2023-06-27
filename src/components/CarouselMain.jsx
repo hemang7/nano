@@ -6,6 +6,7 @@ import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.jpg";
+import img6 from "../assets/img6.jpg";
 
 function CarouselMain() {
   let cards = [
@@ -13,9 +14,9 @@ function CarouselMain() {
       key: uuidv4(),
       content: (
         <Card
-          imagen={img1}
-          title="Agrochemicals & Inorganic"
-          desc="A.I. Content of Pesticides, Toxicological Data Generation, Physico-chemical studies as per OECD, CIB guidelines, BIS/CIPAC guidelines. Residual and Persistent studies on Crop, Water, Soil, Shelf Life Studies, Container Content Compatibility (CCC) studies."
+          imagen={img2}
+          title="Energy Harvest & Storage"
+          desc="Our expertise lies in maximizing the utilization of renewable energy sources and implementing efficient storage systems. From solar and wind power solutions to advanced energy storage technologies, we help businesses optimize their energy usage and reduce their carbon footprint"
         />
       ),
     },
@@ -23,9 +24,9 @@ function CarouselMain() {
       key: uuidv4(),
       content: (
         <Card
-          imagen={img2}
-          title="Food & Beverages"
-          desc="Studies to ascertain products complying to FSSAI and other national & International standards , Nutritional Facts, Alcoholic and Non Alcoholic Beverages studies for product registration and quality checks, Food Grade Certifications."
+          imagen={img1}
+          title="Industrial R&D"
+          desc=" Our team of experts collaborates closely with businesses to understand their unique challenges and goals, delivering customized R&D solutions that drive growth and competitiveness. With our industrial R&D services, clients can unlock new opportunities, enhance their capabilities, and accelerate their path to success."
         />
       ),
     },
@@ -34,8 +35,8 @@ function CarouselMain() {
       content: (
         <Card
           imagen={img3}
-          title="Healthcare"
-          desc="Studies to strengthen the healthcare practices in hospitals like water testing for different usages as per AAMI/ IS:10500. Checking the Drugs quality, Air quality Monitoring in various sections. Microbial Enumeration Studies of various Medical Devices. Quality of various gases for Clinical use."
+          title="Agrochemicals"
+          desc="Enhance agricultural practices with our innovative agrochemical solutions. From fertilizers to pesticides, our products optimize crop protection and boost yields. With a focus on sustainability and quality, we help farmers mitigate risks and achieve higher productivity. Trust our expertise for effective agrochemical solutions."
         />
       ),
     },
@@ -44,8 +45,8 @@ function CarouselMain() {
       content: (
         <Card
           imagen={img4}
-          title="Infrastructure"
-          desc="Calibration of various laboratory accounterments for Fluid Flow, Electrotechnical, Volumetric & Gravimetry. Quality Evaluation of Construction Material (Raw & Finished products), Job Mix Formula, Concrete Mix Design, Survey Studies, Destructive & Non Destructive evaluation/ studies."
+          title="Cement"
+          desc="Our cement solutions deliver durability and reliability. With a commitment to quality and innovation, we provide high-performance cement products that meet industry standards. From residential buildings to infrastructure projects, our cement solutions ensure long-lasting structural integrity."
         />
       ),
     },
@@ -54,14 +55,24 @@ function CarouselMain() {
       content: (
         <Card
           imagen={img5}
-          title="Textile, Paper & Leather"
-          desc="Quality Control Testing, Projects, Third Party Quality Inspections (TPI), Supplier Quality Assessment, Mechanical, Physical, Chemical, Weathering Tests (Colour Fastness, Change in Physico-Mechanical properties)."
+          title="Pigment & Polymer"
+          desc="Vibrant colors, enhanced materials. Our solutions for pigments and polymers offer endless possibilities. From paints to plastics, we provide high-quality pigments for vivid hues and advanced polymer technologies for improved performance. Unleash your creativity with our innovative solutions."
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={img6}
+          title="Policy & Analytics"
+          desc="Data-driven insights for informed decisions. Navigate regulations and optimize strategies with our expertise. Get actionable recommendations and evidence-based decision-making support. Stay ahead of the curve with our comprehensive policy and analytics solutions."
         />
       ),
     },
   ];
   return (
-    <div className="" style={{marginBottom: 350}}>
+    <div className="" style={{ marginBottom: 350 }}>
       <Carousel
         cards={cards}
         height="500px"

@@ -19,11 +19,18 @@ export default function Carroussel(props) {
 
   return (
     <div
-      style={{ width: props.width, height: props.height, margin: props.margin, marginBottom: 450, marginTop:100 }}
+      style={{
+        width: props.width,
+        height: props.height,
+        margin: props.margin,
+        marginBottom: 400,
+        marginTop: 100,
+      }}
     >
       <h1 className="flex justify-center text-4xl font-bold mb-12 underline py-12 ">
         Sectors we serve
       </h1>
+
       <Carousel
         slides={cards}
         goToSlide={goToSlide}
