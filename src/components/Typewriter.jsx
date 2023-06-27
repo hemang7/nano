@@ -7,7 +7,7 @@ const Typewriter = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "NanoSolute aim to realize the potential of nanotechnology based innovation for sustainable future.",
+        "NanoSolute aims to realize the potential of nanotechnology-based innovation for a sustainable future.",
       ],
       typeSpeed: 40,
       
