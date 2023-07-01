@@ -120,7 +120,7 @@ const Contact = () => {
           src={contact}
           alt="Contact"
           className="rounded-md object-cover h-64 sm:h-80 md:h-96 lg:h-120"
-          style={{ marginBottom: 100 }}
+          style={{ marginBottom: 50 }}
         />
       </div>
       <div className="flex flex-col md:flex-row mt-12 bg-blue-600 rounded-md p-10">
