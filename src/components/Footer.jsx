@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 md:ml-8 flex justify-end mr-5 text-gray-200">
+          <div className="md:w-1/2 md:ml-8 flex flex-col md:flex-row md:justify-end md:items-center text-gray-200">
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-bold mb-4t ">Reach out</h2>
               <p>Phone: (123) 456-7890</p>
@@ -34,10 +34,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-16 border-t border-gray-600 py-7 text-gray-200 text-xs">
-          &copy; {currentYear} NanoSolute Services. All rights reserved
-        </div>
-        <div className="text-right mr-5">
+        
+
+        <div className="mt-8 sm:mt-16 border-t border-gray-600 py-7 text-gray-300 text-xs flex justify-between items-center">
+          <div>
+            &copy; {currentYear} NanoSolute Services. All rights reserved
+          </div>
           <button
             className=" bg-blue-400 hover:bg-blue-900 rounded-full p-2 focus:outline-none mb-5"
             onClick={scrollToTop}
