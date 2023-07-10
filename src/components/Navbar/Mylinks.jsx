@@ -11,10 +11,11 @@ export const links = [
     submenu: true,
     sublinks: [
       {
+        Head: 'Innovation and Consulting Services',
         sublink: [
           {
             name: "Development & Optimization of Product & Process",
-            link: "service/PhysicochemicalAnalysis",
+            link: "service/Development&Optimization",
             image: img1,
             desc: [
               "Comprehensive analysis and improvement of product development strategies and processes.",
@@ -31,7 +32,7 @@ export const links = [
           },
           {
             name: "IP Development & Protection",
-            link: "service/Pharmaceuticaltesting",
+            link: "service/IPDevelopment&Protection",
             image: img2,
             desc: [
               "Comprehensive assessment of intellectual property (IP) assets and identification of valuable inventions, trademarks, copyrights, and trade secrets.",
@@ -48,7 +49,7 @@ export const links = [
           },
           {
             name: "Project Development & Execution",
-            link: "service/Neutraceuticalproducttesting",
+            link: "service/ProjectDevelopment&Execution",
             image: img3,
             desc: [
               "Assessment and analysis of project requirements, objectives, and constraints to develop a comprehensive project plan.",
@@ -65,7 +66,7 @@ export const links = [
           },
           {
             name: "Market Intelligence",
-            link: "service/Chemicaltesting",
+            link: "service/MarketIntelligence",
             image: img4,
             desc: [
               "Customized formulation and development of chemical solutions tailored to meet specific industry needs and applications.",
@@ -82,7 +83,7 @@ export const links = [
           },
           {
             name: "Technology Assessment",
-            link: "service/Agricultureproducttesting",
+            link: "service/TechnologyAssessment",
             image: img5,
             desc: [
               "Comprehensive evaluation of existing technologies and their suitability for specific applications in the chemical industry.",
