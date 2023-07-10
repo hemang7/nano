@@ -15,7 +15,7 @@ const AnalyticalRDSolutions = () => {
         style={{ marginTop: 120, marginBottom: 220 }}
       >
         <div className="container mx-auto flex flex-col items-center text-gray-200">
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-3xl font-bold mb-6 text-center">
             Drive Growth and Innovation with Industry-Leading Analytical and R&D
             Solutions!
           </h2>
