@@ -21,7 +21,7 @@ const Typewriter = () => {
     };
   }, []);
 
-  return <span ref={typeRef}></span>;
+  return <span ref={typeRef} className="text-center"></span>;
 };
 
 export default Typewriter;
