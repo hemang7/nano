@@ -3,7 +3,7 @@ import hero from "../assets/hero1.mp4";
 
 const Banner = () => {
   return (
-    <section className="relative mt-10 sm:mt-10">
+    <section className="relative sm:mt-10" style={{marginTop:'6rem'}}>
       <video className="w-full h-auto object-cover" autoPlay loop muted>
         <source src={hero} type="video/mp4" />
         Your browser does not support the video tag.
